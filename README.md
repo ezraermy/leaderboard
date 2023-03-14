@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>ToDo List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -30,10 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ToDo List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[Todo List]** Aimed at creating todo list web application. A user can apply CRUD functionality i.e, add a task, read, update and delete an already added task. 
-
+**[Leaderboard]** Aimed at creating a website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved into the external Leaderboard API service
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -51,8 +50,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Home_page]**
-- **[CRUD_Functionality]**
+- **[Single_page]**
+- **[Display_Scores]**
+- **[Insert_Score]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Main_Page]**
+- [ ] **[Single_Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
