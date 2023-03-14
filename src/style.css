@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.main-title { 
+  padding: 30px 120px 20px;
+
+}
+
+.container {
+  background: #fff;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.score-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+
+.recent-score {
+  width: 30%;
+}
+.add-score {
+  width: 30%;
+}
+.scores {
+  margin: 20px 0;
+  padding: 0;
+}
+.input-score{
+  margin: 20px 0;
+}
+
+ul {
+  border: solid 1px black;
+}
+li{
+  list-style-type: none;
+  padding: 6px 0;
+}
+li:nth-child(even){
+  background-color: #ddd;
+}
+.submit {
+  float: right;
+  margin-right: 85px;
+}
