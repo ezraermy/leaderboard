@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
 }
 
@@ -6,9 +6,8 @@ body {
   background-color: #f8f8f8;
 }
 
-.main-title { 
+.main-title {
   padding: 30px 120px 20px;
-
 }
 
 .container {
@@ -28,27 +27,33 @@ body {
 .recent-score {
   width: 30%;
 }
+
 .add-score {
   width: 30%;
 }
+
 .scores {
   margin: 20px 0;
   padding: 0;
 }
-.input-score{
+
+.input-score {
   margin: 20px 0;
 }
 
 ul {
   border: solid 1px black;
 }
-li{
+
+li {
   list-style-type: none;
   padding: 6px 0;
 }
-li:nth-child(even){
+
+li:nth-child(even) {
   background-color: #ddd;
 }
+
 .submit {
   float: right;
   margin-right: 85px;
