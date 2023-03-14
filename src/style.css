@@ -55,6 +55,6 @@ li:nth-child(even) {
 }
 
 .submit {
-  float: right;
-  margin-right: 85px;
+  position: relative;
+  left: 48%;
 }
