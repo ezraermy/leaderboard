@@ -7,30 +7,32 @@
   <title>Learderboard</title>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1 class="main-title">Leaderboard</h1>
-    <div class="score-card">
-      <div class="recent-score">
-        <h2 class="score-title">Recent Scores <button class="refresh-btn">Refresh</button></h2>
-        <ul class="scores">
-          <li class="score-point">Name: 100</li>
-          <li class="score-point">Name: 20</li>
-          <li class="score-point">Name: 50</li>
-          <li class="score-point">Name: 78</li>
-          <li class="score-point">Name: 125</li>
-          <li class="score-point">Name: 77</li>
-          <li class="score-point">Name: 42</li>
-        </ul>
-      </div>
-      <div class="add-score">
-        <h2 class="score-title">Add your score</h2>
-        <form action="" class="input-score">
-          <input type="text" id="name" placeholder="Your name"><br><br>
-          <input type="text" id="score" placeholder="Your score">
-        </form>
-        <button class="submit" id="submit">Submit</button>
-      </div>
+  </header>
+  <main>
+    <div class="score-head">
+      <h2 class="score-title">Recent Scores  <button type="button" class="refresh" id="refresh-button">Refresh</button></h2>
+      <h2 class="add-title">Add Your Score</h2>
     </div>
-  </div>
+    <div class="score-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body">
+        </tbody>
+      </table>
+      <form>
+          <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+          <input type="number" id="score" name="score" placeholder="Your Score"><br><br>
+          <button class="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
