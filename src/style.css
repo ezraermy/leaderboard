@@ -3,58 +3,50 @@
 }
 
 body {
-  background-color: #f8f8f8;
-}
-
-.main-title {
-  padding: 30px 120px 20px;
-}
-
-.container {
   background: #fff;
   width: 70%;
   margin: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.main-title {
+  padding: 30px 120px 10px;
+}
+
 .score-card {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 60px;
+  padding-bottom: 2rem;
 }
 
-.recent-score {
-  width: 30%;
+.score-title {
+  margin-left: 60px;
 }
 
-.add-score {
-  width: 30%;
+.add-title {
+  margin-bottom: 20px;
 }
 
-.scores {
-  margin: 20px 0;
-  padding: 0;
+.score-head {
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
 }
 
-.input-score {
-  margin: 20px 0;
-}
-
-ul {
+table {
   border: solid 1px black;
+  width: 30%;
 }
 
-li {
-  list-style-type: none;
-  padding: 6px 0;
-}
-
-li:nth-child(even) {
+tr:nth-child(even) {
   background-color: #ddd;
 }
 
 .submit {
   position: relative;
-  left: 48%;
+  left: 69%;
 }
