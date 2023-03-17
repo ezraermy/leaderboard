@@ -17,7 +17,8 @@ body {
   color: #f8f8f8;
   display: inline-flex;
   animation: rotate 2s 2;
-  margin: 1rem 1rem;
+  margin: 2rem 1rem;
+  text-align: center;
 }
 
 @keyframes rotate {
@@ -98,10 +99,14 @@ h1 span:nth-of-type(11) {
 
 .score-head {
   color: #0ff;
-  margin: 0 9rem;
+  margin: 0 12rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.input-form {
+  margin: -2rem 3rem 0 0;
 }
 
 table {
@@ -128,13 +133,14 @@ tr:nth-child(odd) {
 
 .submit {
   position: relative;
-  left: 70%;
+  left: 58%;
   width: 5rem;
   height: 2rem;
   text-align: center;
   border-radius: 4px;
   background: lightblue;
   border: none;
+  cursor: pointer;
 }
 
 .submit:hover {
